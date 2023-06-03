@@ -1,0 +1,13 @@
+#This is for voting elegibility 
+
+read -p "Please enter your age" AGE
+
+if $AGE -ge 18; then
+  echo "You can Vote"
+  
+else
+  echo "Sorry You are a Kid and you can't vote"
+  
+ fi
+ 
+ 
